@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Confirmar compra</title>
+ <link rel="stylesheet" href="confirmar_compra.css">
+</head>
+<body>
+  <div class="pantalla">
+
+    <nav class="navegacion" aria-label="Navegación">
+      <a class="volver" href="#" aria-label="Volver">‹</a>
+    </nav>
+
+    <main>
+      <header class="encabezado">
+        <h1>Confirmar compra</h1>
+        <p>Revisa tu pedido antes de seguir</p>
+      </header>
+        
+
+      <!-- parte superior -->
+      <section class="tarjeta-resumen" aria-labelledby="titulo-resumen">
+        <div class="resumen-cabecera">
+          <h2 id="titulo-resumen">Resumen de pedido</h2>
+          <p>2 productos</p>
+        </div>
+
+        <div class="productos" aria-label="Productos del pedido">
+          <img class="producto" src="./Rectangle 229.png" alt="Luz auxiliar">
+          <img class="producto" src="./Rectangle 230.png" alt="Luz auxiliar">
+        </div>
+
+        <div class="desglose">
+          <p><span>Subtotal</span><span>RD$ 2,750</span></p>
+          <p><span>Envío</span><span>RD$ 150</span></p>
+        </div>
+      </section>
+
+      <p class="total"><span>Total</span><strong>RD$ 2,900</strong></p>
+
+
+     <!-- Base de la app -->
+
+      <section class="tarjeta-pago" aria-labelledby="titulo-pago">
+        <div class="pago-encabezado">
+          <h2 id="titulo-pago">Método de pago</h2>
+          <div class="logos-pago" aria-label="Visa y Mastercard">
+            <img class="logo-visa" src="./Rectangle 32.png" alt="Visa">
+          </div>
+        </div>
+        <p class="tipo-pago">Tarjeta de crédito/débito</p>
+        <p class="numero-tarjeta">******* 2343</p>
+      </section>
+    </main>
+
+    <button class="accion" type="button">Confirmar pedido</button>
+  </div>
+</body>
+</html>
