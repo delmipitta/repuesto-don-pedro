@@ -1,38 +1,51 @@
 /* Hecho por Delmi */
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
 
 
-:root{
-    --color-primario
-    --color-texto
-    --color-exito
-    --color-fondo
+:root {
+    /* colores, sizes y familia */
+    --color-primario: #FFFFF;
+    --color-texto-primario: #0D0D0D;
+    --familia-texto: 'Inria Serif';
+    --grosor-text: Bold;
+    --text-size: 10px;
 
+    /* colores de textos secundarios */
+    --texto-secundario-family: inria Sans;
+    --text-size: 6px;
+    --grosor-text: Light;
+
+    /* colores de precios y ver todo*/
+    --familia-texto: 'Inria Sans';
+    --grosor-text: bold;
+    --text-size: Bold;
+    --text-size: 5px;
+
+
+
+    /*  */
+
+
+    --color-fondo: #FFFFFF;
 }
 
 
-.container{}
+.container {}
 
-.btn{}
+.btn {}
 
-.btn--primario{
+.btn--primario {}
 
-}
+.card {}
 
-.card{}
+.field {}
 
-.field{
+.badge {}
 
-}
+.bottom-nav {}
 
-.badge{
-
-}
-
-.bottom-nav{}
-
-.topbar{}
+.topbar {}
