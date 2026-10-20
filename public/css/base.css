@@ -39,7 +39,7 @@
     --font-size: 5px;
     --grosor-text: Bold;
 
-    
+
 
     /* botones de navegacion, footer de las paginas, #inicio #buscar #categorias */
     --cajas-width: 31.9;
@@ -50,6 +50,14 @@
     --width: 205px;
     --height: 30;
     --corner-radius: 5px;
+
+
+    /* Botones de accion */
+    --width: 205px;
+    --height: 30;
+    --corner-radius: 10px;
+    --background-color: #E50914;
+
 
 }
 
