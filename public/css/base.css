@@ -16,8 +16,11 @@
 
     /* colores de textos secundarios */
     --texto-secundario-family: inria Sans;
+    --text-size2: 10;
     --text-size: 6px;
+    --grosor-text: regular;
     --grosor-text: Light;
+
 
     /* colores de precios y ver todo*/
     --familia-texto: 'Inria Sans';
@@ -30,15 +33,24 @@
     --height: 35px;
     /* imagen interna */
     --width: 25px;
-    --height:20px;
+    --height: 20px;
     /* Texto interno */
     --font-family: 'Inria Sans';
     --font-size: 5px;
     --grosor-text: Bold;
 
+    
+
     /* botones de navegacion, footer de las paginas, #inicio #buscar #categorias */
-   --cajas-width: 31.9;
-   --cajas-height: 31.36;
+    --cajas-width: 31.9;
+    --cajas-height: 31.36;
+
+
+    /* inputs  */
+    --width: 205px;
+    --height: 30;
+    --corner-radius: 5px;
+
 }
 
 
