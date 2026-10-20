@@ -7,6 +7,11 @@
 
 
 :root {
+    /* reset dafault setup */
+    --margin: 0;
+    --box-sizing: border:box;
+    --padding: 0;
+
     /* colores, sizes y familia */
     --color-primario: #FFFFF;
     --color-texto-primario: #0D0D0D;
