@@ -36,8 +36,9 @@
     --font-size: 5px;
     --grosor-text: Bold;
 
-
-   
+    /* botones de navegacion, footer de las paginas, #inicio #buscar #categorias */
+   --cajas-width: 31.9;
+   --cajas-height: 31.36;
 }
 
 
