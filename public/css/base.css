@@ -1,16 +1,11 @@
 /* Hecho por Delmi */
-* {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
-
 
 :root {
     /* reset dafault setup */
     --margin: 0;
     --box-sizing: border:box;
     --padding: 0;
+    --color-fondo: #FFFFFF;
 
     /* colores, sizes y familia */
     --color-primario: #FFFFF;
@@ -30,12 +25,19 @@
     --text-size: Bold;
     --text-size: 5px;
 
+    /* Size y caresticas de categorias de precios */
+    --width: 36px;
+    --height: 35px;
+    /* imagen interna */
+    --width: 25px;
+    --height:20px;
+    /* Texto interno */
+    --font-family: 'Inria Sans';
+    --font-size: 5px;
+    --grosor-text: Bold;
 
 
-    /*  */
-
-
-    --color-fondo: #FFFFFF;
+   
 }
 
 
